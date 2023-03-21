@@ -28,7 +28,6 @@ public class CardDeliveryTest {
 
     @BeforeEach
     void setUp() {
-        Configuration.headless = true;
         open("http://localhost:9999/");
     }
 public String generateDate(long addDays, String pattern){
